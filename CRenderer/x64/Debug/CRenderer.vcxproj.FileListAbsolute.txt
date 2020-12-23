@@ -1,0 +1,2 @@
+D:\GIT\CRenderer\CRenderer\x64\Debug\CRenderer.exe
+D:\GIT\CRenderer\CRenderer\x64\Debug\CRenderer.pdb
