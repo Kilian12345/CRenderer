@@ -1,2 +1,7 @@
 ﻿  Main.c
+D:\GIT\CRenderer\CRenderer\Main.c(87,26): warning C4305: '+=': truncation from 'double' to 'float'
+D:\GIT\CRenderer\CRenderer\Main.c(88,26): warning C4305: '+=': truncation from 'double' to 'float'
+D:\GIT\CRenderer\CRenderer\Main.c(89,26): warning C4305: '+=': truncation from 'double' to 'float'
+D:\GIT\CRenderer\CRenderer\Main.c(120,45): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(121,46): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
   CRenderer.vcxproj -> D:\GIT\CRenderer\CRenderer\x64\Debug\CRenderer.exe
