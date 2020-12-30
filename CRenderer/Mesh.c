@@ -99,6 +99,27 @@ void load_obj_file_data(char* filename)
 			array_push(mesh.faces, face);
 		}
 
-		printf("LINE=%s", line);
+		/*if (strncmp(line, "f ", 2) == 0)
+		{
+			int vertex_indices[3];
+			int normal_indices[3];
+			sscanf_s(line, "f %d//%d %d//%d %d//%d",
+				&vertex_indices[0], &normal_indices[0],
+				&vertex_indices[1], &normal_indices[1],
+				&vertex_indices[2], &normal_indices[2]
+			);
+
+			face_t face =
+			{
+				.a = vertex_indices[0],
+				.b = vertex_indices[1],
+				.c = vertex_indices[2]
+			};
+
+
+			array_push(mesh.faces, face);
+		}*/
+
+		//printf("LINE=%s", line);
 	}
 }

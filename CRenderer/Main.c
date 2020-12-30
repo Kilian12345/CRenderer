@@ -10,7 +10,7 @@
 
 triangle_t* triangles_to_render = NULL;
 
-vec3_t camera_position = { 0, 0, -5 };
+vec3_t camera_position = { 0, 0, 0 };
 //vec3_t cube_rotation = { .x = 0, .y = 0, .z = 0 };
 
 
@@ -35,10 +35,8 @@ void setup(void)
 
 	// Loads the cube values in the mesh data structure
 	//load_cube_mesh_data();
+	//load_obj_file_data("./mesh/AK47.obj");
 	load_obj_file_data("./mesh/cube.obj");
-
-	//Start Loading my array of vectors
-	//From -1 to 1 (in this 9x9x9 cube)
 
 }
 
@@ -101,7 +99,7 @@ void update()
 		face_vertices[1] = mesh.vertices[mesh_face.b - 1];
 		face_vertices[2] = mesh.vertices[mesh_face.c - 1];
 
-		triangle_t projected_triangle;
+		vec3_t transformed_vertices[3];
 
 		//Loop all three vertices of this current face and apply transformation
 		for (int j = 0; j < 3; j++)
@@ -113,10 +111,47 @@ void update()
 			transformed_vertex = vec3_rotate_z(transformed_vertex, mesh.rotation.z);
 
 			//Translate the vertex away from the camera
-			transformed_vertex.z -= camera_position.z;
+			transformed_vertex.z += 10;
 
+			//Save transformed vertices
+			transformed_vertices[j] = transformed_vertex;
+		}
+
+		///////////////////////////////////////////////////////////////Check Backface Culling
+		vec3_t vector_a = transformed_vertices[0];
+		vec3_t vector_b = transformed_vertices[1];
+		vec3_t vector_c = transformed_vertices[2];
+
+		vec3_t vector_ab = vec3_sub(vector_b, vector_a);
+		vec3_t vector_ac = vec3_sub(vector_c, vector_a);
+		vec3_normalize(&vector_ab);
+		vec3_normalize(&vector_ac);
+
+		//Compute the face normal using the cross product to find the perpendicular
+		vec3_t normal = vec3_cross(vector_ab, vector_ac);
+
+		//Normalize the face normal vector
+		vec3_normalize(&normal);
+
+		//Find a vector between a point in the triangle and the camera origin
+		vec3_t camera_ray = vec3_sub(camera_position, vector_a);
+
+		// Calculate how aligned is the camera ray with the normal
+		float dot_normal_camera = vec3_dot(camera_ray, normal);
+
+		if (dot_normal_camera < 0) continue;
+
+		//-- end of back face culling
+
+
+
+		triangle_t projected_triangle;
+
+		// Loop all three vertices to perform projection
+		for(int j = 0; j < 3; j++)
+		{
 			// Project the current vertex
-			vec2_t projected_point = project(transformed_vertex);
+			vec2_t projected_point = project(transformed_vertices[j]);
 
 			//Scale and translate the projected point in the middle of the screen
 			projected_point.x += (window_width / 2);
@@ -137,7 +172,7 @@ void update()
 void render()
 {
 
-	draw_grid(20);
+	draw_grid(10);
 
 	int num_triangles = array_length(triangles_to_render);
 
@@ -156,6 +191,7 @@ void render()
 		);
 
 
+		// Draw Vertices
 		draw_rect(triangle.points[0].x, triangle.points[0].y, 4, 4, 0xFFFFFF00);
 		draw_rect(triangle.points[1].x, triangle.points[1].y, 4, 4, 0xFFFFFF00);
 		draw_rect(triangle.points[2].x, triangle.points[2].y, 4, 4, 0xFFFFFF00);

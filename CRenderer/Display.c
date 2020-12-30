@@ -56,7 +56,7 @@ void draw_grid(int grid_size)
 	{
 		for (int x = 0; x < window_width; x += grid_size)
 		{
-			color_buffer[(window_width * y) + x] = 0xFFFFFFFF;
+			color_buffer[(window_width * y) + x] = 0xFF555555;
 		}
 	}
 }

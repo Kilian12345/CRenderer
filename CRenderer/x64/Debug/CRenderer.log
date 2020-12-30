@@ -1,2 +1,14 @@
-﻿  Mesh.c
+﻿  Main.c
+D:\GIT\CRenderer\CRenderer\Main.c(184,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(185,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(186,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(187,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(188,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(189,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(195,33): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(195,55): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(196,33): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(196,55): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(197,33): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(197,55): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
   CRenderer.vcxproj -> D:\GIT\CRenderer\CRenderer\x64\Debug\CRenderer.exe
