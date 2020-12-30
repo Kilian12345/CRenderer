@@ -1,20 +1,2 @@
-﻿  Display.c
-D:\GIT\CRenderer\CRenderer\Display.c(99,30): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Display.c(99,48): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Display.c(94,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\GIT\CRenderer\CRenderer\Display.c(95,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-  Main.c
-D:\GIT\CRenderer\CRenderer\Main.c(147,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(148,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(149,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(150,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(151,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(152,24): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(157,33): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(157,55): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(158,33): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(158,55): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(159,33): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(159,55): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-  Generating Code...
+﻿  Mesh.c
   CRenderer.vcxproj -> D:\GIT\CRenderer\CRenderer\x64\Debug\CRenderer.exe

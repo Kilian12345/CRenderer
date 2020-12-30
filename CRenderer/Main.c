@@ -34,7 +34,8 @@ void setup(void)
 	);
 
 	// Loads the cube values in the mesh data structure
-	load_cube_mesh_data();
+	//load_cube_mesh_data();
+	load_obj_file_data("./mesh/cube.obj");
 
 	//Start Loading my array of vectors
 	//From -1 to 1 (in this 9x9x9 cube)
