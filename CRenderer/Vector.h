@@ -11,6 +11,11 @@ typedef struct
 	float x, y, z;
 } vec3_t;
 
+typedef struct
+{
+	float x, y, z, w;
+} vec4_t;
+
 /// <summary>
 /// Vector 2D Functions
 /// </summary>
@@ -22,6 +27,8 @@ vec2_t vec2_mul(vec2_t v, float factor);
 vec2_t vec2_div(vec2_t v, float factor);
 float vec2_dot(vec2_t a, vec2_t b);
 void vec2_normalize(vec2_t* v);
+
+
 
 /// <summary>
 /// Vector 3D Functions
@@ -39,5 +46,14 @@ void vec3_normalize(vec3_t* v);
 vec3_t vec3_rotate_x( vec3_t v, float angle);
 vec3_t vec3_rotate_y( vec3_t v, float angle);
 vec3_t vec3_rotate_z( vec3_t v, float angle);
+
+
+
+/// <summary>
+/// Vector 4D Functions
+/// </summary>
+
+vec4_t vec4_from_vec3(vec3_t v);
+vec3_t vec3_from_vec4(vec4_t v);
 
 #endif
