@@ -1,21 +1,21 @@
 ﻿  Main.c
-D:\GIT\CRenderer\CRenderer\Main.c(107,28): warning C4305: '+=': truncation from 'double' to 'float'
-D:\GIT\CRenderer\CRenderer\Main.c(247,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(248,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(249,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(250,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(251,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(252,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(41,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\GIT\CRenderer\CRenderer\Main.c(258,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(259,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
 D:\GIT\CRenderer\CRenderer\Main.c(260,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
 D:\GIT\CRenderer\CRenderer\Main.c(261,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
 D:\GIT\CRenderer\CRenderer\Main.c(262,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
 D:\GIT\CRenderer\CRenderer\Main.c(263,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(264,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(265,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(273,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(273,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(274,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(274,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(275,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(275,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(271,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(272,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(273,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(274,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(275,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(276,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(284,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(284,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(285,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(285,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(286,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Main.c(286,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
   CRenderer.vcxproj -> D:\GIT\CRenderer\CRenderer\x64\Debug\CRenderer.exe
