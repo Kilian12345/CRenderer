@@ -39,6 +39,12 @@
     <ClCompile Include="Light.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Texture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Display.h">
@@ -60,6 +66,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Swap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

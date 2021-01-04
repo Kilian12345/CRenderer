@@ -1,21 +1,19 @@
-﻿  Main.c
-D:\GIT\CRenderer\CRenderer\Main.c(41,1): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\GIT\CRenderer\CRenderer\Main.c(258,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(259,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(260,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(261,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(262,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(263,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(271,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(272,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(273,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(274,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(275,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(276,25): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(284,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(284,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(285,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(285,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(286,38): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
-D:\GIT\CRenderer\CRenderer\Main.c(286,64): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+﻿  Triangle.c
+D:\GIT\CRenderer\CRenderer\Triangle.c(18,20): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(18,30): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(12,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(13,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(37,20): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(37,30): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(31,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(32,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(73,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(128,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(129,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(130,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(145,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(146,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(174,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(175,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GIT\CRenderer\CRenderer\Triangle.c(225,1): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   CRenderer.vcxproj -> D:\GIT\CRenderer\CRenderer\x64\Debug\CRenderer.exe
